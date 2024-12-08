@@ -1,0 +1,101 @@
+body{
+	font-family: arial;
+	color:white;
+	letter-spacing:1.5px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tweet-button {
+		background-color:#722E85;
+		color:white;
+		border:none;
+		height:50px;
+		width:180px;
+		border-radius:10px;
+		cursor:pointer;
+		font-size:20px;
+		font-weight:bold;
+		font-family:Arial;
+		text-align:left;
+		margin-bottom:2.5px;
+		box-shadow: 10px 10px 10px rgba(255, 99, 71, 0.2);
+		}
+
+.tweet-button:hover {
+		background-color:green;
+		opacity:0.8
+		}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 10px;
+	border: 0.5px solid #606060;
+	letter-spacing: 2px;
+}
+
+th{
+	font-size:21px;
+	background-color:white;
+	color: white;
+}
+
+tr:nth-last-child(odd) {
+  background-color: #a3a3a0;
+}
+
+tr:nth-last-child(even) {
+  background-color: #b4ae65;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: right;
+  
+}
+
+.pagination a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color:#f7ea47;
+}
+
+.pagination a:hover {
+  background-color: #454444;
+  color:white;
+}
+
+.pagination span {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #454444;
+}
+
+.thumbnail {
+	width:210px;
+	height: 150px;
+	object-fit:fit;
+	object-position:bottom;
+	border-width:2px;
+	border_style:solid;
+	border-color:red;
+}		
