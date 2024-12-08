@@ -35,7 +35,7 @@
                 </center>
                 <form action="login_check.php" method="POST" class="login_form">
                     <div>
-                        <label class="label_deg">User Name</label>
+                        <label class="label_deg">User Name goes here</label>
                         <input type="text" name="username">
                     </div>
                     
